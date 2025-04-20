@@ -1,0 +1,87 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayaz Designs - Logo & Thumbnail Showcase</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #111;
+      color: #fff;
+    }
+    header {
+      background: #222;
+      padding: 20px;
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      color: #00ffd5;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+    .item {
+      background: #1c1c1c;
+      border: 2px solid #333;
+      border-radius: 12px;
+      overflow: hidden;
+      transition: 0.3s;
+    }
+    .item:hover {
+      transform: scale(1.03);
+      border-color: #00ffd5;
+    }
+    .item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .caption {
+      padding: 10px;
+      font-size: 16px;
+      text-align: center;
+      background: #000;
+    }
+    footer {
+      background: #222;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      color: #999;
+    }
+    .contact {
+      text-align: center;
+      padding: 30px;
+      background: #111;
+    }
+    .contact a {
+      color: #00ffd5;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Ayaz Designs - Logos, Thumbnails & Posters
+  </header>  <section class="gallery">
+    <div class="item">
+      <img src="images/logo1.jpg" alt="Logo 1" />
+      <div class="caption">Custom Logo 1</div>
+    </div>
+    <div class="item">
+      <img src="images/thumb1.jpg" alt="Thumbnail 1" />
+      <div class="caption">Gaming Thumbnail</div>
+    </div>
+    <!-- Add more items here by copying above block -->
+  </section>  <div class="contact">
+    <p>Want a custom logo or thumbnail? Contact me on <a href="mailto:your-email@example.com">Email</a> or <a href="https://wa.me/yourwhatsapplink">WhatsApp</a></p>
+  </div>  <footer>
+    &copy; 2025 Ayaz Designs. All rights reserved.
+  </footer>
+</body>
+</html>
